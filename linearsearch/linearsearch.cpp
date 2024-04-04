@@ -46,11 +46,19 @@ void LinearSearch() {
             }
             i++;
         }
+
+        if (i == n)
+            cout << "\n" << item << " not found in the array\n";
+        cout << "\nNumber of comparisons: " << ctr << endl;
+        
+        cout << "\nContinue search (y/n): ";
+        cin >> ch;
     }
+   
 }
 
 int main()
 {
-    std::cout << "Hello World!\n";
+    
 }
 
